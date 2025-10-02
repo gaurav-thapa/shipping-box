@@ -1,5 +1,5 @@
 
-import { createBrowserRouter, RouterProvider } from 'react-router'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router'
 import './App.css'
 import Homepage from './Homepage';
 import Table from './components/Table';
@@ -7,7 +7,7 @@ import Form from './components/Form';
 
 function App() {
 
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: '/', element: <Homepage />, children:
         [

@@ -2,7 +2,7 @@
   "name": "shipping-box",
   "private": true,
   "version": "0.0.0",
-  "homepage":"https://github.com/gaurav-thapa/shipping-box",
+  "homepage":"https://gaurav-thapa.github.io/shipping-box/",
   "type": "module",
   "scripts": {
     "dev": "vite",
